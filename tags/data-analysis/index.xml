@@ -1,0 +1,153 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alpha Live Collection</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</guid>
+      <description>&lt;h1 id=&#34;alpha-live-data&#34;&gt;Alpha Live Data&lt;/h1&gt;
+&lt;h3 id=&#34;capital-requirements&#34;&gt;Capital Requirements&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;OPC Server&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Utilized RsLinx OPC Server&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;PC and DDE clients are supported for any number of devices. It also supports applications developed for the RSLinx Classic C API. But note that this is limited to 32bit client only. Additional information is found within Rockwell&#39;s &lt;a href=&#34;https://literature.rockwellautomation.com/idc/groups/literature/documents/gr/linx-gr001_-en-e.pdf&#34;&gt; documentation&lt;/a&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;Other OPC servers may be utilized, but have not been tested.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Matrikon OPC&lt;/li&gt;
+            &lt;li&gt;Cyberlogic&lt;/li&gt;
+            &lt;li&gt;Graybox&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Computer System configure with Python 3 or later&lt;/li&gt;
+    &lt;li&gt;Database&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;li&gt;SQL Express&lt;/li&gt;
+    &lt;li&gt;Oracle&lt;/li&gt;
+    &lt;li&gt;Microsoft Access&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
+&lt;p&gt;Identify the OPC server&amp;rsquo;s IP address, all OPC tags should be hosted on the OPC server. Configure tags within the scrapping script as demonstrated.
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/alpha-live-visual.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Alpha-Live-Data&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Caramel Moisture Equivalency</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-equivalency/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-equivalency/</guid>
+      <description>&lt;p&gt;The Kitchen is an isolated location on the second floor of the plant; the Kitchen, produces caramel for the Alpha line
+to deposit on a chocolate patty base. The quality technicians observe caramel moisture, the current Key Performance
+Indicator (KPI), to characterize the caramel. Following the Kitchen production, the caramel flows to the depositor on
+the plant&amp;rsquo;s base floor. The caramel is deposited at roughly 62°C, which is significantly greater than the temperature in
+the Kitchen. Management, operators, and quality technicians believed the caramel moisture in the Kitchen and depositor
+were equivalent. The results exhibited there were extreme variations between the two locations and possibly machine
+deficiencies. The management staff pivoted to observe caramel viscosity to augment the KPI and added a project to
+predict the caramel viscosity given the Kitchen setpoints.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/caramel-equivalency-visual.png&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_20_Caramella_War%20on%20Waste_Caramel%20Moisture%20Equivalency&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spooler Transitions</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/spooler-transitions/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/spooler-transitions/</guid>
+      <description>&lt;p&gt;Following the chocolate base, nut depositor, and caramel depositor, the turtle travels through a cooling tunnel and over
+a wire mesh. To remove overapplied pecans, a spooler transition between the cooling tunnel and wire mesh permits
+unplaced pecans to fall through the spooler and prevent wire mesh clogging. While producing Original turtles, operations
+acknowledge significant waste when using the Original spooler. The management staff investigated the statistical
+difference between utilizing the Original spooler and the Bite spooler during Original turtle production. The results
+yielded statistically significant benefits utilizing the Bite spooler during Original turtle production.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/spooler-visual.png&#34; alt=&#34;Bar Chart&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_15_Caramella_War%20on%20Waste_Spooler%20Type&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Caramel Mass Depositor</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-depositor-setpoints/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-depositor-setpoints/</guid>
+      <description>&lt;p&gt;Identify scrap redound by utilizing depositing 6.25 grams of caramel relative to the standard 5.10 grams of caramel
+standard. Financially, caramel is less expensive than pecans; therefore, adjusting the turtle&amp;rsquo;s component composition is
+advantageous to reduce direct costs. The management team pursued the Design of Experimentation to identify if it was
+plausible to reduce pecan contribution and utilize additional caramel. The results yielded inconsistent and larger turtle sizes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/caramel-depositor-visual.png&#34; alt=&#34;Box Plot&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_27_Caramella_War%20on%20Waste_Caramel%20Depositor&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turtle Wrapability</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/flow-wrapping-settings/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/flow-wrapping-settings/</guid>
+      <description>&lt;p&gt;Manufacturing turtles is a variable process, given the direct value-added materials: caramel, pecans, and chocolate.
+The turtle volume inconsistencies are apparent during the flow wrapping process because oversized turtles are rejected
+at a 3D Profile Station. The 3D Profile Station has subjective setpoints; therefore, operators may adjust the setpoints
+as they see fit. However, the operators should not significantly deviate from the centreline check sheet. The results
+yielded that operations are rejecting 100% oversized turtles and not attempting to package one over-sized turtle with
+two regular turtles. Thus, they are increasing waste; the recommendation includes relaxing the 3D Profile Station to
+admit slightly larger turtles assuming the likelihood that two regular turtles will fit within the same flow wrapper.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/wrapability-visual-1.png&#34; alt=&#34;Box Plot&#34;&gt;
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/wrapability-visual-2.png&#34; alt=&#34;Line Graph&#34;&gt;
+&lt;a href=&#34;hhttps://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_29_Caramella_War%20on%20Waste_Wrapability&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Empirical Pecan Contract Investigation</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/dichotomous-nut-sizes/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/dichotomous-nut-sizes/</guid>
+      <description>&lt;p&gt;Alpha line is capable of producing Original, Bite, and Mini turtles. The management team began negotiating a new supply
+chain contract for pecans, it became apparent the current pecan size was too cumbersome for effective Bite production.
+The Research and Development Senior Manager suggested utilizing smaller pecans that would encourage turtle size
+consistency and decrease waste. However, many team members discarded the suggestions assuming the turtle volume [mm³]
+would decrease and the inconsistency is inherent. Following running multiple observations, the smaller pecans did not
+reduce overall turtle size and increased consistency. The project is ongoing to fortify the supply chain contract.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/nut-size-visual.png&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_13_Caramella_War%20on%20Waste_Small%20Nuts&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

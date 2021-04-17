@@ -1,0 +1,138 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/</link>
+    <description>Recent content on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/projects/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/about/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/about/</guid>
+      <description>&lt;style&gt;
+body { 
+    margin: 2px 2px 2px 2px; 
+    text-align: center;
+} 
+h1 { 
+    color: green; 
+} 
+img { 
+    float: left;  
+    margin: 5px;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding left: 20px; 
+} 
+p {
+    text-align: left; 
+    font-size: 25px; 
+}
+&lt;/style&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;p&gt;Hi, my name is Derek Caramella.&lt;/p&gt;
+&lt;div class=&#34;square&#34;&gt;
+    &lt;div&gt;
+        &lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Derek_Presenting.png&#34; alt=&#34;Personal Picture&#34; width=360&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I am a Digitization Lead for pladis Global, a chocolate manufacturing company. I deliver data visualizations to empower
+objective decision making to ensure effective operation. I use python, visual basic, SQL, and Excel technologies to build local
+dashboards on servers and deliever statistical insight to reduce deadweigh losses.&lt;/p&gt;
+&lt;p&gt;I graduate from Elmira College, in May 2021 as a triple major in Business Administration, Economics, &amp; Political 
+Science with a concentration in Public Affairs. Following graduation, I will attend the University of Rochester striving
+for my Master&#39;s in Data Science.&lt;/p&gt;
+&lt;div class=&#34;square&#34; style=&#34;float: right&#34;&gt;
+    &lt;div&gt;
+        &lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Lexi_Derek.JPG&#34; alt=&#34;Lexi &amp; Derek&#34; width=300&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Outside the workplace &amp; academia, I enjoy playing soccer and spending time outdoors. I have a loving, 
+supportive girlfriend that I spend the lion&#39;s share of my recreational time with - we ski, kayak, hike, and 
+enjoy life together.&lt;/p&gt;
+&lt;p&gt;Thank you for visiting my portfolio, make sure to network with me if you have any questions or comments.&lt;/p&gt;
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Warm_Regards.JPG&#34; alt=&#34;Warm Regards&#34; class=&#34;center&#34; height:20 style=&#34;float: none;&#34;&gt;
+&lt;p&gt;Warm regards,&lt;br&gt;Derek&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/contact/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/contact/</guid>
+      <description>&lt;style&gt;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align:center
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 2px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;html&gt;
+&lt;div class=&#34;card&#34; class=&#34;center&#34; style=&#34;width:330px&#34;&gt;
+  &lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/telephone-icon.png&#34; alt=&#34;Telephone&#34; class=&#34;center&#34; style=&#34;width:25%&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h4 style=&#34;margin-left: 70px&#34;&gt;(315) 532-7782&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&#34;card&#34; style=&#34;width:330px&#34;&gt;
+  &lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/email-icon.png&#34; alt=&#34;Email&#34; class=&#34;center&#34; style=&#34;width:25%&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h4 style=&#34;margin-left: 13px&#34;&gt;derekcaramella@gmail.com&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
