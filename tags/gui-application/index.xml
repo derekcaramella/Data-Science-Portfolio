@@ -1,0 +1,98 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GUI Application on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/gui-application/</link>
+    <description>Recent content in GUI Application on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/gui-application/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sandy Bartender Dashboard</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/sandy_bartenderdashboard/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/sandy_bartenderdashboard/</guid>
+      <description>&lt;h1 id=&#34;beach-side-bar-database-management-system&#34;&gt;Beach Side Bar Database Management System&lt;/h1&gt;
+&lt;p&gt;Welcome to Beach Side Bar, a drinking experience that topples the great Jon Taffer.&lt;/p&gt;
+&lt;p&gt;At Beach Side Bar we pride ourselves on data driven decision-making, we collect data on each transaction through our POS (Point of Sale) devices that inserts records into our data management software - Sandy.&lt;/p&gt;
+&lt;p&gt;Sandy enables our business to thrive by determining inventory cycles, forecasting sales, &amp;amp; ensure bartenders are serving at the epitome level.&lt;/p&gt;
+&lt;p&gt;Take a dive off the deep end &amp;amp; take a look at Sandy, shirts &amp;amp; shoes optional.&lt;/p&gt;
+&lt;h2 id=&#34;server-information&#34;&gt;Server Information&lt;/h2&gt;
+&lt;p&gt;The web application is hosted on &lt;a href=&#34;www.pythonanywhere.com&#34;&gt;Python Anywhere&lt;/a&gt;.
+Python Anywhere is a Platform as a Service (PaaS) company that hosts the Sandy application. Additionally, the MySQL database is hosted by the organization. The developers identified 100 second processing time and 500 MB hard drive storage for the software.&lt;/p&gt;
+&lt;p&gt;Access &lt;a href=&#34;http://derekcaramella.pythonanywhere.com/&#34;&gt;Sandy&lt;/a&gt; today to bring power to your decision-making!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;All data was synthetically generated applying customized python sampling and execution for the application.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Sandy-Demo.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Sandy_BartenderDashboard&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bingo Solution</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/bingo-solution/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/bingo-solution/</guid>
+      <description>&lt;p&gt;I implemented pytesseract Optical Character Recognition (OCR) that decoded the Bingo board and prompt using Natural
+Langauge Processing (NLP). I chose Bingo Blitz because the board and gameplay are vexatiously noisy. I utilized Hue, Saturation, &amp;amp; Value (HSV) masking to segment the numbers. Following masking, the standard median blurs, thresholding, dilation, and morphology preprocessed the board for computer vision. The application is built for Window applications utilizing the win32api to move &amp;amp; click with the mouse.&lt;/p&gt;
+&lt;p&gt;Although the application is exceedingly accurate, I incorporated a Tkinter application to update inconsistencies.&lt;/p&gt;
+&lt;p&gt;If you look to install this program and run it on your system, you must adjust the screenshot settings to your
+computer&amp;rsquo;s resolution.&lt;/p&gt;
+&lt;p&gt;Bingo Blitz is a non-gabbling software that users play bingo. A bingo board is displayed at the beginning of the round
+then balls routinely appear that the user selects to win the game. This application automates the selection &amp;amp; power-up
+process through computer vision.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Bingo_Solution.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/Bingo-Solution&#34;&gt;
+Github Project Link&lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maintenance End of Shift Log</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/maintenance-eos/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/maintenance-eos/</guid>
+      <description>&lt;p&gt;The maintenace team requested an End of Shift application to document labor utilization. This Tkinter application is
+simplistic, which should support longevity and sustainability.&lt;/p&gt;
+&lt;h3 id=&#34;user-requirements&#34;&gt;User Requirements:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Longevity and sustainability&lt;/li&gt;
+&lt;li&gt;Multiple accounts within the file simultaneously&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The project began as an Excel Macro file hosted on SharePoint; however, the online functionality prevented multiple
+accounts active simultaneously.&lt;/p&gt;
+&lt;p&gt;Thus, I pivoted to the Tkinter module in Python to construct a GUI accessible from multiple accounts. Moreover, I did
+not utilize a database to ensure longevity and sustainability. Incorporating a database will limit the user; hence, all
+observations are documented in Excel via the openpyxl module.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/maintenance-visual.JPG&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/Maintenance-EOS&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Operator Hand Off Log</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/operator-hand-off-log/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/operator-hand-off-log/</guid>
+      <description>&lt;p&gt;A small desktop application for operations to add hand over messages and review the past three shifts messages.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

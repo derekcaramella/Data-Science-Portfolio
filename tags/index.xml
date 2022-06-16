@@ -1,0 +1,60 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/</link>
+    <description>Recent content in Tags on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Collection</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-collection/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/time-series/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/tags/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUI Application</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/gui-application/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/tags/gui-application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/computer-vision/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

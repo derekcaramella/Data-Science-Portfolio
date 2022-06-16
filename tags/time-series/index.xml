@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Series on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/time-series/</link>
+    <description>Recent content in Time Series on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heart Illness Classification AutoEncoders</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-heartillness/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-heartillness/</guid>
+      <description>&lt;h1 id=&#34;heart-illness-classification-autoencoders&#34;&gt;Heart Illness Classification AutoEncoders&lt;/h1&gt;
+&lt;p&gt;In this project, you will work with LSTM-based autoencoders to classify human heart beats for heart disease diagnosis. The dataset contains 5,000 Time Series examples with 140 timesteps. Each time-series is an ECG or EKG signal that corresponds to a single heartbeat from a single patient with congestive heart failure. An electrocardiogram (ECG or EKG) is a test that checks how your heart is functioning by measuring the electrical activity of the heart. With each heartbeat, an electrical impulse (or wave) travels through your heart. This wave causes the muscle to squeeze and pump blood from the heart. There are 5 types of hearbeats (classes) that can be classified: i) Normal (N); ii) R-on-T Premature Ventricular Contraction (R-on-T PVC); iii) Premature Ventricular Contraction (PVC); iv) Supra-ventricular Premature or Ectopic Beat (SP or EB); v) Unclassified Beat (UB). The shape of the time-series and the position of the impulses allows doctors to diagnose these different conditions. For the purposes of this project, we are interested in 2 classes: &lt;i&gt;Normal&lt;/i&gt; and &lt;i&gt;Abnormal&lt;/i&gt; (which includes class 2-5 above merged).&lt;/p&gt;
+&lt;p&gt;This is an example of an anomaly detection problem where class imbalance exists, i.e., number of each of the individual positive (abnormal) instances are smaller than the normal case. The autoencoder approach is suited well for such &lt;b&gt;applications of anomaly detection&lt;/b&gt;. In anomaly detection, we learn the pattern of a normal process. Anything that does not follow this pattern is classified as an anomaly. For a binary classification of rare events, we can use a similar approach using autoencoders.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/TimeSeries-HeartIllness-Autoencoders-Threshold.JPG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/HeartIllness_Autoencoders&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Time-Series SARIMAX</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-sarimax/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-sarimax/</guid>
+      <description>&lt;h1 id=&#34;time-series-sarimax&#34;&gt;Time-Series SARIMAX&lt;/h1&gt;
+&lt;p&gt;I analyzed Autocorrelation Functions (ACF) &amp;amp; Partial Autocorrelation Functions (PACF) to determine the ARIMA models&#39; order. Additionally, I conducted necessary differencing to preprocess the data into the stationary assumption. In addition to appraisal processing, I conducted a graph brute force search to identify the best model order with the smallest AIC &amp;amp; BIC metrics. Lastly, I executed a predictive analysis with 95% confidence to forecast the succeeding year&amp;rsquo;s revenue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/TimeSeries-SARIMAX_Forecast.png&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/TimeSeries_SARIMAX&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

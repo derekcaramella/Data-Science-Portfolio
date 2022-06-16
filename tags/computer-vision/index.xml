@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bingo Solution</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/bingo-solution/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/bingo-solution/</guid>
+      <description>&lt;p&gt;I implemented pytesseract Optical Character Recognition (OCR) that decoded the Bingo board and prompt using Natural
+Langauge Processing (NLP). I chose Bingo Blitz because the board and gameplay are vexatiously noisy. I utilized Hue, Saturation, &amp;amp; Value (HSV) masking to segment the numbers. Following masking, the standard median blurs, thresholding, dilation, and morphology preprocessed the board for computer vision. The application is built for Window applications utilizing the win32api to move &amp;amp; click with the mouse.&lt;/p&gt;
+&lt;p&gt;Although the application is exceedingly accurate, I incorporated a Tkinter application to update inconsistencies.&lt;/p&gt;
+&lt;p&gt;If you look to install this program and run it on your system, you must adjust the screenshot settings to your
+computer&amp;rsquo;s resolution.&lt;/p&gt;
+&lt;p&gt;Bingo Blitz is a non-gabbling software that users play bingo. A bingo board is displayed at the beginning of the round
+then balls routinely appear that the user selects to win the game. This application automates the selection &amp;amp; power-up
+process through computer vision.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Bingo_Solution.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/Bingo-Solution&#34;&gt;
+Github Project Link&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

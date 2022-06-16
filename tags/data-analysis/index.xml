@@ -1,0 +1,335 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Etherium Token Recommender</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/etheriumtokenrecommender/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/etheriumtokenrecommender/</guid>
+      <description>&lt;h1 id=&#34;etherium-token-recommender&#34;&gt;Etherium Token Recommender&lt;/h1&gt;
+&lt;p&gt;When using Ethereum, users hold a unique wallet, within each wallet the user holds tokens that seem attractive to the user.&lt;/p&gt;
+&lt;h2 id=&#34;project-goal&#34;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;Generate top 5 relevant tokens based on collaborative filtering from the Ethereum Blockchain Genesis.&lt;/p&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;PySpark&lt;/li&gt;
+&lt;li&gt;DataBricks&lt;/li&gt;
+&lt;li&gt;Delta Lake&lt;/li&gt;
+&lt;li&gt;S3&lt;/li&gt;
+&lt;li&gt;MLFlow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/EthereumTokenRecommender.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/EtheriumTokenRecommender&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metropolis Hastings Airlines</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/metropolis-hastings-airlines/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/metropolis-hastings-airlines/</guid>
+      <description>&lt;h1 id=&#34;metropolis-hastings-airlines&#34;&gt;Metropolis Hastings Airlines&lt;/h1&gt;
+&lt;p&gt;An airline company is interested in examining vaccination trends among its travelers. It ultimately wants to know what percentage of its travelers are 1) full vaccinated and boosted, 2) fully vaccinated but not boosted, 3) partially vaccinated, or 4) not vaccinated (i.e. there are K = 4 groups). The company wants to examine such vaccination trends both for domestic and international flights (i.e. J = 2 groups). They collect data from a random sample of travelers on recent flights and have compiled it in the table below:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vaccination Status&lt;/th&gt;
+&lt;th&gt;Fully and Boosted&lt;/th&gt;
+&lt;th&gt;Fully but not boosted&lt;/th&gt;
+&lt;th&gt;Partially&lt;/th&gt;
+&lt;th&gt;Unvaccinated&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Domestic flight travelers&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;43&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;International flight travelers&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I examine the airlines trends utilize a metroplis hasting algorithm and Bayesian Inference&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/MetropolisHastingsAirlines.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/MetropolisHastingsAirlines&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graduation Rate Predictor</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/graduationratepredictor/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/graduationratepredictor/</guid>
+      <description>&lt;h1 id=&#34;graduation-rate-predictor&#34;&gt;Graduation Rate Predictor&lt;/h1&gt;
+&lt;p&gt;The aim of this project is to model the way government expenditures and labor appropriation impacts secondary education graduation rates in New York State Public Schools. Our experiments show that diminishing returns are not present in funding, rather the educational staff’s quality affects graduation rates. Our highest performing model predicted graduation rate SVR with a median squared error of 3.863.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/GraduationRatePredictor.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/GraduationRatePredictor&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazon Recommendation Classification</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/amazonrecommendationclassification/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/amazonrecommendationclassification/</guid>
+      <description>&lt;h1 id=&#34;amazon-recommendation-classification&#34;&gt;Amazon Recommendation Classification&lt;/h1&gt;
+&lt;p&gt;Amazon curates the buying experience for each user utilizing advanced algorithms and frequent item-set techniques to drive revenue. In addition to recommendation algorithms, pessimistic or interested buyers will consult the reviews posted below a product to gauge whether the product is a &amp;ldquo;smart&amp;rdquo; purchase.  Our goal is to accurately classify the review score as function of review summary and text.&lt;/p&gt;
+&lt;p&gt;We utilized NLP techniques, such as Non-Negative Matrix Factorization (NMF), Latent Dirichlet Allocation (LDA), and Term Frequency–Inverse  Document Frequency (TF-IDF) to classify the Amazon reviews. We utilized the Ridge regression technique that exhibited 0.83963 Root Mean Squared Error (RMSE).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/AmazonReviewClassification.png&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/AmazonRecommendationClassification&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Congressional Tweet Classification</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/congressionaltweetclassification/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/congressionaltweetclassification/</guid>
+      <description>&lt;h1 id=&#34;congressional-tweet-classification&#34;&gt;Congressional Tweet Classification&lt;/h1&gt;
+&lt;p&gt;We extract, transform, and analyze over 857,000 records to classify a tweet’s owner as a Democrat or Republican. We utilized the Logistic regression technique that exhibited 88.884 percent accuracy. We conclude that a tweet’s content can reveal the owner as Democrat or Republican.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/CongressionalTweetClassification.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/CongressionalTweetClassification&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heart Illness Classification AutoEncoders</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-heartillness/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-heartillness/</guid>
+      <description>&lt;h1 id=&#34;heart-illness-classification-autoencoders&#34;&gt;Heart Illness Classification AutoEncoders&lt;/h1&gt;
+&lt;p&gt;In this project, you will work with LSTM-based autoencoders to classify human heart beats for heart disease diagnosis. The dataset contains 5,000 Time Series examples with 140 timesteps. Each time-series is an ECG or EKG signal that corresponds to a single heartbeat from a single patient with congestive heart failure. An electrocardiogram (ECG or EKG) is a test that checks how your heart is functioning by measuring the electrical activity of the heart. With each heartbeat, an electrical impulse (or wave) travels through your heart. This wave causes the muscle to squeeze and pump blood from the heart. There are 5 types of hearbeats (classes) that can be classified: i) Normal (N); ii) R-on-T Premature Ventricular Contraction (R-on-T PVC); iii) Premature Ventricular Contraction (PVC); iv) Supra-ventricular Premature or Ectopic Beat (SP or EB); v) Unclassified Beat (UB). The shape of the time-series and the position of the impulses allows doctors to diagnose these different conditions. For the purposes of this project, we are interested in 2 classes: &lt;i&gt;Normal&lt;/i&gt; and &lt;i&gt;Abnormal&lt;/i&gt; (which includes class 2-5 above merged).&lt;/p&gt;
+&lt;p&gt;This is an example of an anomaly detection problem where class imbalance exists, i.e., number of each of the individual positive (abnormal) instances are smaller than the normal case. The autoencoder approach is suited well for such &lt;b&gt;applications of anomaly detection&lt;/b&gt;. In anomaly detection, we learn the pattern of a normal process. Anything that does not follow this pattern is classified as an anomaly. For a binary classification of rare events, we can use a similar approach using autoencoders.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/TimeSeries-HeartIllness-Autoencoders-Threshold.JPG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/HeartIllness_Autoencoders&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BPL Player Type Price Optimization</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/bpl_playertypeoptimization/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/bpl_playertypeoptimization/</guid>
+      <description>&lt;h1 id=&#34;british-premier-league-player-type-price-optimization&#34;&gt;British Premier League Player Type Price Optimization&lt;/h1&gt;
+&lt;p&gt;This project seeks to explore the frequent line-ups of successful &amp;amp; unsuccessful clubs constrained by finances. To investigate this problem, the researchers (1) built a game week over game week linear optimized model, (2) used actual club squad rosters, and conducted (3) dissimilarity analysis by drawing a network exhibiting the distance between maximized frequent itemsets and minimized itemsets.&lt;/p&gt;
+&lt;p&gt;The researchers clustered the players based on position, market value, &amp;amp; season points contributed; thus, appropriating a Gold, Silver, or Bronze tier to each player in a given season.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The researchers built a maximization &amp;amp; minimization model to build an optimal, budgetconstrained squad. Then, the researchers will conduct Apriori analysis on the maximization and minimized game week transactions.&lt;/li&gt;
+&lt;li&gt;Next, the researchers identified the top 25% and bottom 25% of teams in each season. Then, the researchers created squad transactions by identifying if a player played for a top or bottom club in the week. Then, the researchers conducted Apriori analysis on the top &amp;amp; worst teams in the season.&lt;/li&gt;
+&lt;li&gt;Lastly, the researchers drew a dissimilarity network between the maximized and minimized frequent itemsets.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Invest in a strong gold tiered midfield accompanied by at least one strong wing back&lt;/li&gt;
+&lt;li&gt;Tactically focus on transitional moments relative to establishing defense&lt;/li&gt;
+&lt;li&gt;Above average Gold Midfielders score the expected value of Gold Forwards &amp;amp; provide more assists&lt;/li&gt;
+&lt;li&gt;Gold Midfielders reap the highest return on capital investment&lt;/li&gt;
+&lt;li&gt;Ensure tactics conform to the player combinations to generate fortunate results&lt;/li&gt;
+&lt;li&gt;Although a team may contain the same quality line up combinations as top-flight clubs, it may perform as a relegation class team due to mismanagement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/BPL-PlayerTypePriceOptimization-TSNE.png&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/BPL_PlayerTypePriceOptimization&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Time-Series SARIMAX</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-sarimax/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/timeseries-sarimax/</guid>
+      <description>&lt;h1 id=&#34;time-series-sarimax&#34;&gt;Time-Series SARIMAX&lt;/h1&gt;
+&lt;p&gt;I analyzed Autocorrelation Functions (ACF) &amp;amp; Partial Autocorrelation Functions (PACF) to determine the ARIMA models&#39; order. Additionally, I conducted necessary differencing to preprocess the data into the stationary assumption. In addition to appraisal processing, I conducted a graph brute force search to identify the best model order with the smallest AIC &amp;amp; BIC metrics. Lastly, I executed a predictive analysis with 95% confidence to forecast the succeeding year&amp;rsquo;s revenue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/TimeSeries-SARIMAX_Forecast.png&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/TimeSeries_SARIMAX&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sandy Bartender Dashboard</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/sandy_bartenderdashboard/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/sandy_bartenderdashboard/</guid>
+      <description>&lt;h1 id=&#34;beach-side-bar-database-management-system&#34;&gt;Beach Side Bar Database Management System&lt;/h1&gt;
+&lt;p&gt;Welcome to Beach Side Bar, a drinking experience that topples the great Jon Taffer.&lt;/p&gt;
+&lt;p&gt;At Beach Side Bar we pride ourselves on data driven decision-making, we collect data on each transaction through our POS (Point of Sale) devices that inserts records into our data management software - Sandy.&lt;/p&gt;
+&lt;p&gt;Sandy enables our business to thrive by determining inventory cycles, forecasting sales, &amp;amp; ensure bartenders are serving at the epitome level.&lt;/p&gt;
+&lt;p&gt;Take a dive off the deep end &amp;amp; take a look at Sandy, shirts &amp;amp; shoes optional.&lt;/p&gt;
+&lt;h2 id=&#34;server-information&#34;&gt;Server Information&lt;/h2&gt;
+&lt;p&gt;The web application is hosted on &lt;a href=&#34;www.pythonanywhere.com&#34;&gt;Python Anywhere&lt;/a&gt;.
+Python Anywhere is a Platform as a Service (PaaS) company that hosts the Sandy application. Additionally, the MySQL database is hosted by the organization. The developers identified 100 second processing time and 500 MB hard drive storage for the software.&lt;/p&gt;
+&lt;p&gt;Access &lt;a href=&#34;http://derekcaramella.pythonanywhere.com/&#34;&gt;Sandy&lt;/a&gt; today to bring power to your decision-making!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;All data was synthetically generated applying customized python sampling and execution for the application.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/Sandy-Demo.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Sandy_BartenderDashboard&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alpha Live Collection</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</guid>
+      <description>&lt;h1 id=&#34;alpha-live-data&#34;&gt;Alpha Live Data&lt;/h1&gt;
+&lt;h3 id=&#34;capital-requirements&#34;&gt;Capital Requirements&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;OPC Server&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Utilized RsLinx OPC Server&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;PC and DDE clients are supported for any number of devices. It also supports applications developed for the RSLinx Classic C API. But note that this is limited to 32bit client only. Additional information is found within Rockwell&#39;s &lt;a href=&#34;https://literature.rockwellautomation.com/idc/groups/literature/documents/gr/linx-gr001_-en-e.pdf&#34;&gt; documentation&lt;/a&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;Other OPC servers may be utilized, but have not been tested.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Matrikon OPC&lt;/li&gt;
+            &lt;li&gt;Cyberlogic&lt;/li&gt;
+            &lt;li&gt;Graybox&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Computer System configure with Python 3 or later&lt;/li&gt;
+    &lt;li&gt;Database&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;li&gt;SQL Express&lt;/li&gt;
+    &lt;li&gt;Oracle&lt;/li&gt;
+    &lt;li&gt;Microsoft Access&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
+&lt;p&gt;Identify the OPC server&amp;rsquo;s IP address, all OPC tags should be hosted on the OPC server. Configure tags within the scrapping script as demonstrated.
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/alpha-live-visual.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Alpha-Live-Data&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Caramel Moisture Equivalency</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-equivalency/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-equivalency/</guid>
+      <description>&lt;p&gt;The Kitchen is an isolated location on the second floor of the plant; the Kitchen, produces caramel for the Alpha line
+to deposit on a chocolate patty base. The quality technicians observe caramel moisture, the current Key Performance
+Indicator (KPI), to characterize the caramel. Following the Kitchen production, the caramel flows to the depositor on
+the plant&amp;rsquo;s base floor. The caramel is deposited at roughly 62°C, which is significantly greater than the temperature in
+the Kitchen. Management, operators, and quality technicians believed the caramel moisture in the Kitchen and depositor
+were equivalent. The results exhibited there were extreme variations between the two locations and possibly machine
+deficiencies. The management staff pivoted to observe caramel viscosity to augment the KPI and added a project to
+predict the caramel viscosity given the Kitchen setpoints.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/caramel-equivalency-visual.png&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_20_Caramella_War%20on%20Waste_Caramel%20Moisture%20Equivalency&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spooler Transitions</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/spooler-transitions/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/spooler-transitions/</guid>
+      <description>&lt;p&gt;Following the chocolate base, nut depositor, and caramel depositor, the turtle travels through a cooling tunnel and over
+a wire mesh. To remove overapplied pecans, a spooler transition between the cooling tunnel and wire mesh permits
+unplaced pecans to fall through the spooler and prevent wire mesh clogging. While producing Original turtles, operations
+acknowledge significant waste when using the Original spooler. The management staff investigated the statistical
+difference between utilizing the Original spooler and the Bite spooler during Original turtle production. The results
+yielded statistically significant benefits utilizing the Bite spooler during Original turtle production.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/spooler-visual.png&#34; alt=&#34;Bar Chart&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_15_Caramella_War%20on%20Waste_Spooler%20Type&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Caramel Mass Depositor</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-depositor-setpoints/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/caramel-depositor-setpoints/</guid>
+      <description>&lt;p&gt;Identify scrap redound by utilizing depositing 6.25 grams of caramel relative to the standard 5.10 grams of caramel
+standard. Financially, caramel is less expensive than pecans; therefore, adjusting the turtle&amp;rsquo;s component composition is
+advantageous to reduce direct costs. The management team pursued the Design of Experimentation to identify if it was
+plausible to reduce pecan contribution and utilize additional caramel. The results yielded inconsistent and larger turtle sizes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/caramel-depositor-visual.png&#34; alt=&#34;Box Plot&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_27_Caramella_War%20on%20Waste_Caramel%20Depositor&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turtle Wrapability</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/flow-wrapping-settings/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/flow-wrapping-settings/</guid>
+      <description>&lt;p&gt;Manufacturing turtles is a variable process, given the direct value-added materials: caramel, pecans, and chocolate.
+The turtle volume inconsistencies are apparent during the flow wrapping process because oversized turtles are rejected
+at a 3D Profile Station. The 3D Profile Station has subjective setpoints; therefore, operators may adjust the setpoints
+as they see fit. However, the operators should not significantly deviate from the centreline check sheet. The results
+yielded that operations are rejecting 100% oversized turtles and not attempting to package one over-sized turtle with
+two regular turtles. Thus, they are increasing waste; the recommendation includes relaxing the 3D Profile Station to
+admit slightly larger turtles assuming the likelihood that two regular turtles will fit within the same flow wrapper.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/wrapability-visual-1.png&#34; alt=&#34;Box Plot&#34;&gt;
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/wrapability-visual-2.png&#34; alt=&#34;Line Graph&#34;&gt;
+&lt;a href=&#34;hhttps://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_29_Caramella_War%20on%20Waste_Wrapability&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Empirical Pecan Contract Investigation</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/dichotomous-nut-sizes/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/dichotomous-nut-sizes/</guid>
+      <description>&lt;p&gt;Alpha line is capable of producing Original, Bite, and Mini turtles. The management team began negotiating a new supply
+chain contract for pecans, it became apparent the current pecan size was too cumbersome for effective Bite production.
+The Research and Development Senior Manager suggested utilizing smaller pecans that would encourage turtle size
+consistency and decrease waste. However, many team members discarded the suggestions assuming the turtle volume [mm³]
+would decrease and the inconsistency is inherent. Following running multiple observations, the smaller pecans did not
+reduce overall turtle size and increased consistency. The project is ongoing to fortify the supply chain contract.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/nut-size-visual.png&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/War-on-Waste/tree/master/2020_07_13_Caramella_War%20on%20Waste_Small%20Nuts&#34;&gt;
+Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

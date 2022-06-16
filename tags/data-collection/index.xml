@@ -1,0 +1,218 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Collection on Derek Caramella</title>
+    <link>https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-collection/</link>
+    <description>Recent content in Data Collection on Derek Caramella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://derekcaramella.github.io/Data-Science-Portfolio/tags/data-collection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Etherium Token Recommender</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/etheriumtokenrecommender/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/etheriumtokenrecommender/</guid>
+      <description>&lt;h1 id=&#34;etherium-token-recommender&#34;&gt;Etherium Token Recommender&lt;/h1&gt;
+&lt;p&gt;When using Ethereum, users hold a unique wallet, within each wallet the user holds tokens that seem attractive to the user.&lt;/p&gt;
+&lt;h2 id=&#34;project-goal&#34;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;Generate top 5 relevant tokens based on collaborative filtering from the Ethereum Blockchain Genesis.&lt;/p&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;PySpark&lt;/li&gt;
+&lt;li&gt;DataBricks&lt;/li&gt;
+&lt;li&gt;Delta Lake&lt;/li&gt;
+&lt;li&gt;S3&lt;/li&gt;
+&lt;li&gt;MLFlow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/EthereumTokenRecommender.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/EtheriumTokenRecommender&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graduation Rate Predictor</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/graduationratepredictor/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/graduationratepredictor/</guid>
+      <description>&lt;h1 id=&#34;graduation-rate-predictor&#34;&gt;Graduation Rate Predictor&lt;/h1&gt;
+&lt;p&gt;The aim of this project is to model the way government expenditures and labor appropriation impacts secondary education graduation rates in New York State Public Schools. Our experiments show that diminishing returns are not present in funding, rather the educational staff’s quality affects graduation rates. Our highest performing model predicted graduation rate SVR with a median squared error of 3.863.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/GraduationRatePredictor.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/GraduationRatePredictor&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazon Recommendation Classification</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/amazonrecommendationclassification/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/amazonrecommendationclassification/</guid>
+      <description>&lt;h1 id=&#34;amazon-recommendation-classification&#34;&gt;Amazon Recommendation Classification&lt;/h1&gt;
+&lt;p&gt;Amazon curates the buying experience for each user utilizing advanced algorithms and frequent item-set techniques to drive revenue. In addition to recommendation algorithms, pessimistic or interested buyers will consult the reviews posted below a product to gauge whether the product is a &amp;ldquo;smart&amp;rdquo; purchase.  Our goal is to accurately classify the review score as function of review summary and text.&lt;/p&gt;
+&lt;p&gt;We utilized NLP techniques, such as Non-Negative Matrix Factorization (NMF), Latent Dirichlet Allocation (LDA), and Term Frequency–Inverse  Document Frequency (TF-IDF) to classify the Amazon reviews. We utilized the Ridge regression technique that exhibited 0.83963 Root Mean Squared Error (RMSE).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/AmazonReviewClassification.png&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/AmazonRecommendationClassification&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Congressional Tweet Classification</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/congressionaltweetclassification/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/congressionaltweetclassification/</guid>
+      <description>&lt;h1 id=&#34;congressional-tweet-classification&#34;&gt;Congressional Tweet Classification&lt;/h1&gt;
+&lt;p&gt;We extract, transform, and analyze over 857,000 records to classify a tweet’s owner as a Democrat or Republican. We utilized the Logistic regression technique that exhibited 88.884 percent accuracy. We conclude that a tweet’s content can reveal the owner as Democrat or Republican.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/CongressionalTweetClassification.PNG&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/CongressionalTweetClassification&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ishida Checkweigher</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/ishida-checkweigher/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/ishida-checkweigher/</guid>
+      <description>&lt;h1 id=&#34;ishida-checkweigher&#34;&gt;Ishida Checkweigher&lt;/h1&gt;
+&lt;p&gt;DACS-G Ishida Checkweigher can send data through Modbus and RS-232 connections. The script is intended to be utilized on a Raspberry Pi, which can communicate with RS-232.&lt;/p&gt;
+&lt;h3 id=&#34;capital-requirements&#34;&gt;Capital Requirements:&lt;/h3&gt;
+&lt;li&gt;Raspberry Pi 2 or greater generation&lt;/li&gt;
+&lt;li&gt;Male USB to Male RS-232 port&lt;/li&gt;
+&lt;li&gt;Female to Female RS-232 gender converter&lt;/li&gt;
+&lt;li&gt;Female/Male Null modem adapter&lt;/li&gt;
+&lt;h3 id=&#34;scheduling-scrapping-script&#34;&gt;Scheduling Scrapping Script&lt;/h3&gt;
+&lt;p&gt;Cron is a tool for configuring scheduled tasks on Unix systems. Find cron &lt;a href=&#39;https://www.raspberrypi.org/documentation/linux/usage/cron.md&#39;&gt; documentation&lt;/a&gt; for implementation. Moreover, here are some &lt;a href=&#39;https://crontab.guru/&#39;&gt; examples&lt;/a&gt; for launch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/ishida-chekweigher-visual.jpg&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Ishida-Checkweigher&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DS Smith Scrapping</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/ds-smith-scrapping/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/ds-smith-scrapping/</guid>
+      <description>&lt;p&gt;A dieline is a graphic design as a placeholder for assisting in the proper layout of a document that will be diecut as part of the finishing process. A packaging engineer asked if a script can be written to load the dieline files, view the files, and archive pertinent information. &lt;b&gt;The answer is YES!&lt;/b&gt; The script locates the dielines, copies the files to a local directory for analysis, and uses index analysis to document necessary information.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/DS-Smith-Dieline-Scrapping&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alpha Live Collection</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/alpha-live-collection/</guid>
+      <description>&lt;h1 id=&#34;alpha-live-data&#34;&gt;Alpha Live Data&lt;/h1&gt;
+&lt;h3 id=&#34;capital-requirements&#34;&gt;Capital Requirements&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;OPC Server&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Utilized RsLinx OPC Server&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;PC and DDE clients are supported for any number of devices. It also supports applications developed for the RSLinx Classic C API. But note that this is limited to 32bit client only. Additional information is found within Rockwell&#39;s &lt;a href=&#34;https://literature.rockwellautomation.com/idc/groups/literature/documents/gr/linx-gr001_-en-e.pdf&#34;&gt; documentation&lt;/a&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;Other OPC servers may be utilized, but have not been tested.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Matrikon OPC&lt;/li&gt;
+            &lt;li&gt;Cyberlogic&lt;/li&gt;
+            &lt;li&gt;Graybox&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Computer System configure with Python 3 or later&lt;/li&gt;
+    &lt;li&gt;Database&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;li&gt;SQL Express&lt;/li&gt;
+    &lt;li&gt;Oracle&lt;/li&gt;
+    &lt;li&gt;Microsoft Access&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
+&lt;p&gt;Identify the OPC server&amp;rsquo;s IP address, all OPC tags should be hosted on the OPC server. Configure tags within the scrapping script as demonstrated.
+&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/alpha-live-visual.gif&#34; alt=&#34;Project Action&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/Alpha-Live-Data&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Email Data Export</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/send-consultant-email/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/send-consultant-email/</guid>
+      <description>&lt;p&gt;A simplistic script that exports queries an SQL database, defines the data in a pandas DataFrame, exports the DataFrame to an Excel document, and attaches the Excel export to a gmail. The consultant was unable to retrieve the data from remote locations; therefore, the recurring email was advantageous.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/database-visual.gif&#34; alt=&#34;Project Action&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/Send-Consultant-Email-Attachment&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apartments.com Scrapping</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/apartment-scrapping/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/apartment-scrapping/</guid>
+      <description>&lt;h1 id=&#34;shopping-for-an-apartment&#34;&gt;Shopping for an Apartment?&lt;/h1&gt;
+&lt;p&gt;This python script will retrieve the searches from aparments.com &amp;amp; return a data frame.
+Call the function with a single URL or a list of URLs, happy shopping!&lt;/p&gt;
+&lt;h2 id=&#34;required-modules&#34;&gt;Required Modules&lt;/h2&gt;
+&lt;h3 id=&#34;scraping-functions&#34;&gt;Scraping Functions&lt;/h3&gt;
+&lt;p&gt;BeautifulSoup, pandas, &amp;amp; requests.&lt;/p&gt;
+&lt;h3 id=&#34;personal-execution-example&#34;&gt;Personal Execution Example&lt;/h3&gt;
+&lt;p&gt;Seaborn, apartment_scrap, matplotlib, &amp;amp; matplotlib.pyplot.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/derekcaramella/apartments.com-webscrapping&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maintenance End of Shift Log</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/maintenance-eos/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/maintenance-eos/</guid>
+      <description>&lt;p&gt;The maintenace team requested an End of Shift application to document labor utilization. This Tkinter application is
+simplistic, which should support longevity and sustainability.&lt;/p&gt;
+&lt;h3 id=&#34;user-requirements&#34;&gt;User Requirements:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Longevity and sustainability&lt;/li&gt;
+&lt;li&gt;Multiple accounts within the file simultaneously&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The project began as an Excel Macro file hosted on SharePoint; however, the online functionality prevented multiple
+accounts active simultaneously.&lt;/p&gt;
+&lt;p&gt;Thus, I pivoted to the Tkinter module in Python to construct a GUI accessible from multiple accounts. Moreover, I did
+not utilize a database to ensure longevity and sustainability. Incorporating a database will limit the user; hence, all
+observations are documented in Excel via the openpyxl module.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://derekcaramella.github.io/Data-Science-Portfolio/images/maintenance-visual.JPG&#34; alt=&#34;GUI Application Preview&#34;&gt;
+&lt;a href=&#34;https://github.com/derekcaramella/Maintenance-EOS&#34;&gt;Github Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Operator Hand Off Log</title>
+      <link>https://derekcaramella.github.io/Data-Science-Portfolio/post/operator-hand-off-log/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://derekcaramella.github.io/Data-Science-Portfolio/post/operator-hand-off-log/</guid>
+      <description>&lt;p&gt;A small desktop application for operations to add hand over messages and review the past three shifts messages.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
